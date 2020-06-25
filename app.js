@@ -1,11 +1,10 @@
 const express = require('express');
 const app = express();
 var path = require('path');
-const port = 3001;
 
 app.use(express.static(__dirname + '/static'));
 
 app.get('/', (req ,res) => res.sendFile(path.join(__dirname + '/index.html')));
 
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.listen(process.env.PORT || 5000)
