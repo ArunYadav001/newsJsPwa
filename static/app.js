@@ -62,6 +62,22 @@
  //https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=4b04653d3cea4423b6e349dc2a6afa45    
  
      });
+
+
+     fetch("https://bing-news-search1.p.rapidapi.com/news?safeSearch=Off&textFormat=Raw", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "bing-news-search1.p.rapidapi.com",
+		"x-rapidapi-key": "f75448d7fcmshcd94a0c48265152p1d14c4jsnd1aa99890b05",
+		"x-bingapis-sdk": "true"
+	}
+})
+.then(response => {
+	console.log(response);
+})
+.catch(err => {
+	console.log(err);
+});
     
  
  
