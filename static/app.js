@@ -1,5 +1,6 @@
 
- var URL = "https://newsapi.org/v2/top-headlines?country=in&apiKey=4b04653d3cea4423b6e349dc2a6afa45";  
+ var URL = "https://gnews.io/api/v3/search?q=in&token=4716b3e600484defe4c193a56c6af74f";
+  // "https://newsapi.org/v2/top-headlines?country=in&apiKey=4b04653d3cea4423b6e349dc2a6afa45";  
  // fetch(URL, {
  //     mode: 'cors',
  //     headers: {
