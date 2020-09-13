@@ -53,7 +53,7 @@
            elements[i].textContent = home[i].title;
            element2[i].textContent = home[i].description;
            clicks[i].href = home[i].url;
-           images[i].src = home[i].urlToImage;
+           images[i].src = home[i].image;
           
          
        }
